@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #282c34c7 !important;
+}
+
+header{
+  background-color: #17191be1;
+  color: rgba(255, 255, 255, 0.795) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header_left{
+  color: black !important;
+  background-image: url(./img/azarquiel_ico.jpg) ;
+  background-size: cover;
+  height: 5em;
+  width: 5em;
+  border: solid 1px rgba(255, 255, 255, 0.644);
+}
+a{
+  color: rgba(255, 255, 255, 0.795) !important;
+}
+.btn-primary {
+  color: #fff;
+  border-color: rgba(248, 60, 60, 0.671) !important;
+  background-color: rgba(248, 60, 60, 0.671) !important;
+  border-radius: 0 !important;
+  margin-right: 1em !important;
+}
+#div_login{
+  width: 40% !important;
+  margin: auto;
+  text-align: center;
+  margin-top: 9em;
+}
+.btn_input{
+  background-color: rgba(3, 3, 49, 0.342) !important;
+  border-color: rgba(3, 3, 49, 0.342) !important;
+  margin-top: 1em;
+}
+input[type=text]{
+  margin: 0.2em !important;
+}
+table{
+  width: 70% !important;
+  margin: auto;
+  margin-top: 4em;
+}
+.hide{
+  display: none;
+}
+#div_no_result{
+  margin-top: 5em;
+  text-align: center;
+}
+@media only screen and (max-width: 992px){
+  table{
+    width: 97% !important;
+    margin-top: 1em;
+  }
+}
